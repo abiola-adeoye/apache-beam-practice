@@ -1,0 +1,9 @@
+services:
+  altschool_de:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=abiola
+      - POSTGRES_PASSWORD=dob10012000
+      - POSTGRES_DB=my_taxi
+    ports:
+      - "5432:5432"
